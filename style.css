@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.nav-links li :active{
+    color: aqua;
+}
+
+
+/*-----Navbar---------------*/
+
+.navbar {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 50px;
+    color:rgb(4, 84, 4);
+
+    
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+     
+}
+
+.nav-links li a{
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 15px;
+    color: rgb(1, 21, 21);
+    font-size: 1.2rem;
+    font-weight: 1000;
+    transition: 1s;
+
+    
+}
+
+
+.nav-links li a:hover{
+    background-color:rgb(77, 165, 15);
+    border-radius: 5px;
+}
+.btn{
+    border-radius: 10px;
+    background: rgb(120, 206, 15);
+    padding: 6px 10px;
+    color:black;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pexels-maksgelatin-6163267.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+.header-content h1{
+    padding-left: 430px;
+    align-items: center;
+    justify-content: center;
+    color:rgb(161, 246, 16);
+
+}
+
+.header-content p{
+    padding: 10px 100px 50px 100px;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.btn1{
+    position: absolute;
+    left: 500px;
+    border-radius: 10px;
+    background: rgb(120, 206, 15);
+    padding: 6px 10px;
+    color:black;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width:600px){
+    .navbar{
+        width: 60px;
+        margin:6px 0;
+    }
+}
